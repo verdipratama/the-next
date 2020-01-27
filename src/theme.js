@@ -10,7 +10,6 @@ const customTheme = {
       600: '#e65c8a'
     }
   },
-
   fonts: {
     body: 'Poppins, sans-serif',
     heading: 'system-ui, sans-serif',

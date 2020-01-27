@@ -1,6 +1,5 @@
 {
   "version": 2,
-
   "env": {
     "GA_TRACKING_ID": "@ga-tracking-id"
   },
