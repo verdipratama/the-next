@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 2,
   "scope": "thenextapp",
   "env": {
     "GA_TRACKING_ID": "@ga-tracking-id"
