@@ -1,28 +1,28 @@
 self.__precacheManifest = [
   "/",
   {
-    "url": "/_next/static/Tz15fvFg43BeasjyA3YUy/_buildManifest.js",
-    "revision": "fb96ae7926f5104f50f0cf1b3a23a9b5"
-  },
-  {
-    "url": "/_next/static/Tz15fvFg43BeasjyA3YUy/pages/_app.js",
-    "revision": "62be20ed452fcddb7177"
-  },
-  {
-    "url": "/_next/static/Tz15fvFg43BeasjyA3YUy/pages/_error.js",
-    "revision": "7a1ed073bd7946a86a73"
-  },
-  {
-    "url": "/_next/static/Tz15fvFg43BeasjyA3YUy/pages/index.js",
-    "revision": "12f276cd5c3154a88990"
-  },
-  {
     "url": "/_next/static/chunks/commons.6b5b42654657d9aebcbb.js",
     "revision": "b29b243bfce03480f23c"
   },
   {
     "url": "/_next/static/chunks/framework.74d547792b3163b4d6d2.js",
     "revision": "7769a45dde4b24cf5e11"
+  },
+  {
+    "url": "/_next/static/fGE5lN1i9cbi2En_-1uOS/_buildManifest.js",
+    "revision": "fb96ae7926f5104f50f0cf1b3a23a9b5"
+  },
+  {
+    "url": "/_next/static/fGE5lN1i9cbi2En_-1uOS/pages/_app.js",
+    "revision": "1d8d54be21a8adc5b01d"
+  },
+  {
+    "url": "/_next/static/fGE5lN1i9cbi2En_-1uOS/pages/_error.js",
+    "revision": "2f4168825931ebc7d551"
+  },
+  {
+    "url": "/_next/static/fGE5lN1i9cbi2En_-1uOS/pages/index.js",
+    "revision": "8d128b0f7a0e2802c28f"
   },
   {
     "url": "/_next/static/runtime/main-73c5bb40f43c6379d1c8.js",
