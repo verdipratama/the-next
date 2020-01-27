@@ -1,7 +1,7 @@
+import { NextSeo } from 'next-seo';
 import { Heading, IconButton, useColorMode } from '@chakra-ui/core';
 import Layout from '../components/Layout';
 import Tes from '../components/Content/index';
-import { NextSeo } from 'next-seo';
 
 const SEO = () => (
   <NextSeo
