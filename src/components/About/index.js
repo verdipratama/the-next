@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <>
-      <Button onClick={onOpen} borderRadius="15px">
+      <Button onClick={onOpen} borderRadius="15px" my={4}>
         About
       </Button>
       <Drawer placement="right" onClose={onClose} isOpen={isOpen}>
