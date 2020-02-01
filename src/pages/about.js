@@ -1,12 +1,11 @@
 import { NextSeo } from 'next-seo';
 import { Box, Text } from '@chakra-ui/core';
-import useRandomQuotes from '../hooks/useRandomQuotes';
 import Layout from '../components/Layout';
 import Header from '../components/Layout/Header';
 
 const SEO = () => (
   <NextSeo
-    title="The Next App"
+    title="About - The Next App"
     description="The Next App Boilerplate"
     canonical="https://the-next.now.sh/"
     openGraph={{
@@ -29,20 +28,6 @@ const SEO = () => (
 );
 
 export default () => {
-  const { loading, data } = useRandomQuotes();
-
-  const renderQuote = () => {
-    if (loading) return <span>Loading...</span>;
-    if (!data.content) return null;
-
-    return (
-      <>
-        <h1>&quot;{data.content}&quot;</h1>
-        <span>{` - ${data.author} via Quotable`}</span>
-      </>
-    );
-  };
-
   return (
     <>
       <SEO />
@@ -65,7 +50,7 @@ export default () => {
               Welcome to The Next Level ... :)
             </Text>
           </div>
-          <Text mt={2}>{renderQuote()}</Text>
+          <Text mt={2}>This is About Page!</Text>
         </Box>
       </Layout>
     </>
