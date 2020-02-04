@@ -3,13 +3,13 @@ import { Box, Text } from '@chakra-ui/core';
 import Layout from '../components/Layout';
 import Header from '../components/Layout/Header';
 
-const SEO = () => (
+function SEO() {
   <NextSeo
     title="About - The Next App"
     description="The Next App Boilerplate"
     canonical="https://the-next.now.sh/"
     openGraph={{
-      url: 'https://the-next.now.sh/',
+      url: 'https://the-next.now.sh/about',
       title: 'TheNext',
       description: 'The Next App Boilerplate, Build, Run, Deploy',
       images: [
@@ -24,8 +24,8 @@ const SEO = () => (
       site: '@verdipratama',
       cardType: 'summary_large_image'
     }}
-  />
-);
+  />;
+}
 
 export default () => {
   return (
