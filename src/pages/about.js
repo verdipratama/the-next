@@ -4,27 +4,29 @@ import Layout from '../components/Layout';
 import Header from '../components/Layout/Header';
 
 function SEO() {
-  <NextSeo
-    title="About - The Next App"
-    description="The Next App Boilerplate"
-    canonical="https://the-next.now.sh/"
-    openGraph={{
-      url: 'https://the-next.now.sh/about',
-      title: 'TheNext',
-      description: 'The Next App Boilerplate, Build, Run, Deploy',
-      images: [
-        {
-          url: 'https://the-next.now.sh/favicon.ico'
-        }
-      ],
-      site_name: 'thenext'
-    }}
-    twitter={{
-      handle: '@verdipratama',
-      site: '@verdipratama',
-      cardType: 'summary_large_image'
-    }}
-  />;
+  return (
+    <NextSeo
+      title="About - The Next App"
+      description="The Next App Boilerplate"
+      canonical="https://the-next.now.sh/"
+      openGraph={{
+        url: 'https://the-next.now.sh/about',
+        title: 'TheNext',
+        description: 'The Next App Boilerplate, Build, Run, Deploy',
+        images: [
+          {
+            url: 'https://the-next.now.sh/favicon.ico'
+          }
+        ],
+        site_name: 'thenext'
+      }}
+      twitter={{
+        handle: '@verdipratama',
+        site: '@verdipratama',
+        cardType: 'summary_large_image'
+      }}
+    />
+  );
 }
 
 export default () => {

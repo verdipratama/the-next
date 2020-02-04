@@ -4,7 +4,7 @@ export default () => {
   const [loading, setloading] = useState(false);
   const [data, setdata] = useState({});
 
-  const handleGetQuote = async () => {
+  async function handleGetQuote() {
     setloading(true);
 
     const rawResult = await fetch('https://api.quotable.io/random');
@@ -22,7 +22,7 @@ export default () => {
     }
     // Stop loading state
     setloading(false);
-  };
+  }
 
   useEffect(() => {
     handleGetQuote();
