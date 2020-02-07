@@ -11,7 +11,7 @@ export default () => {
     return (
       <>
         <h1>&quot;{data.content}&quot;</h1>
-        <span>{` - ${data.author} via Quotable`}</span>
+        <span>{`${data.author} — via Quotable`}</span>
       </>
     );
   };

@@ -1,7 +1,6 @@
 import { NextSeo } from 'next-seo';
 import { Box, Text } from '@chakra-ui/core';
 import Layout from '../components/Layout';
-import Header from '../components/Layout/Header';
 
 function SEO() {
   return (
@@ -34,7 +33,6 @@ export default () => {
     <>
       <SEO />
       <Layout>
-        <Header />
         <Box
           as="main"
           width="100%"

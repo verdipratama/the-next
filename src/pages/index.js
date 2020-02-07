@@ -1,6 +1,5 @@
 import { NextSeo } from 'next-seo';
 import Layout from '../components/Layout';
-import Header from '../components/Layout/Header';
 import QuoteBox from '../components/QuoteBox';
 
 function SEO() {
@@ -34,7 +33,6 @@ export default () => {
     <>
       <SEO />
       <Layout>
-        <Header />
         <QuoteBox />
       </Layout>
     </>

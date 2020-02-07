@@ -1,6 +1,6 @@
 import Router from 'next/router';
 import { ThemeProvider, CSSReset, Box, ColorModeProvider } from '@chakra-ui/core';
-
+import Header from './Header';
 import theme from '../../theme';
 import * as gtag from '../../utils/gtag';
 
@@ -11,7 +11,14 @@ export default props => {
     <ThemeProvider theme={theme}>
       <ColorModeProvider>
         <CSSReset />
-        <Box as="main" width="100%" margin="auto">
+        <Header />
+        <Box
+          as="main"
+          width="100%"
+          margin="auto"
+          maxWidth={['100%', '100%', '64vw']}
+          padding={['1rem 2rem', '1rem 2rem']}
+        >
           {props.children}
         </Box>
       </ColorModeProvider>
