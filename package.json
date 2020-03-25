@@ -13,7 +13,7 @@
   "author": "verdipratama",
   "license": "ISC",
   "dependencies": {
-    "@chakra-ui/core": "^0.5.2",
+    "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "dotenv": "^8.2.0",
