@@ -15,7 +15,7 @@ export default () => {
       setdata({
         content:
           'Kita menilai diri kita dengan mengukur dari apa yang kita rasa mampu untuk kita kerjakan, orang lain menilai diri kita dengan mengukur dari apa yang telah kita lakukan. #CatatanMelintasiWaktu',
-        author: 'Verdi Pratama'
+        author: 'Verdi Pratama',
       });
     } else {
       setdata(result);

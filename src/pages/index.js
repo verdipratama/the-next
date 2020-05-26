@@ -14,15 +14,15 @@ function SEO() {
         description: 'The Next App Boilerplate, Build, Run, Deploy',
         images: [
           {
-            url: 'https://the-next.now.sh/favicon.ico'
-          }
+            url: 'https://the-next.now.sh/favicon.ico',
+          },
         ],
-        site_name: 'thenext'
+        site_name: 'thenext',
       }}
       twitter={{
         handle: '@verdipratama',
         site: '@verdipratama',
-        cardType: 'summary_large_image'
+        cardType: 'summary_large_image',
       }}
     />
   );
